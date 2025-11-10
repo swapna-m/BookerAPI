@@ -17,8 +17,8 @@ public class validateGetBooking{
     public void getBookingwith_single_id() throws IOException, ParseException {
         String FirstName = jsonDataReader.getJsonData("firstname");
         String lastname = jsonDataReader.getJsonData("lastname");
-        String totalprice = jsonDataReader.getJsonData("totalprice");
-        String depositpaid = jsonDataReader.getJsonData("depositpaid");
+        //String totalprice = jsonDataReader.getJsonData("totalprice");
+        //String depositpaid = jsonDataReader.getJsonData("depositpaid");
         Response resp = given()
                 .header("Content-Type", "application/json")
                 .pathParam("id",1)
