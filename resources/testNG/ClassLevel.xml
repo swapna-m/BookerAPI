@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="API Automation for Booker API">
-    <test name="Validate Booker API">
+    <test name="validateAuth">
         <classes>
             <class name="BookerAPIAuto.validateAuth"></class>
+        </classes>
+    </test>
+    <test name="validateGetBooking">
+        <classes>
             <class name="BookerAPIAuto.validateGetBooking"></class>
         </classes>
     </test>
